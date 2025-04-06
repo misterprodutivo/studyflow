@@ -617,7 +617,7 @@ footer p {
     .setor {
         flex-direction: column;
         position: relative;
-        height: 35vh;
+        height: 45vh;
         margin: 0;
         margin-bottom: 3vh;
         margin-top: 5vh;
@@ -684,11 +684,11 @@ footer p {
 
 
     .oferta:nth-child(1) {
-        height: 50vh !important;
+        height: 70vh !important;
         width: 80vw;
     }
     .oferta:nth-child(2) {
-        height: 80vh;
+        height: 1100vh;
     }
     .preco-novo{
         font-size: 1.5rem;
