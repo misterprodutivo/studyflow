@@ -696,6 +696,9 @@ footer p {
     .nome-oferta, .preco{
         margin-bottom: 2vh;
     }
+    .nome-oferta {
+        font-size: 1.2rem;
+    }
     .faq {
         width: 100%;
     }
