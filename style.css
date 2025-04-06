@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', 'sans-serif';
+}
+
+body {
+    background-color: #141415;
+    color: white;
+}
+
+body,
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+section {
+    width: 80vw;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+section h1 {
+    margin-bottom: 5vh;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 800;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.container-video {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 45%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 5vh !important;
+    box-shadow: 0 0 5px rgba(12, 228, 127, 0.6),
+    /* Luz suave */
+    0 0 10px rgba(32, 255, 118, 0.4),
+    /* Luz mais expandida */
+    0 0 20px rgba(50, 248, 110, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.logo {
+    width: 5vw;
+    margin: auto;
+    border-radius: 15px
+}
+
+p {
+    font-size: 1.2rem;
+    font-family: 'Inter', 'sans-serif';
+    font-weight: 500;
+    margin: 2vh;
+    color: #7c7e82;
+}
+
+.btn {
+    padding: 1rem;
+    background-color: #6de289;
+    border-radius: 25px;
+    width: 40%;
+    text-decoration: none;
+    color: white;
+    margin: auto;
+    margin-top: 5vh;
+    font-family: 'Inter', 'sans-serif';
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(45, 255, 115, 0.6),
+    /* Luz suave */
+    0 0 10px rgba(44, 255, 107, 0.4),
+    /* Luz mais expandida */
+    0 0 20px rgba(43, 255, 167, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.setores,
+.setor {
+    width: 100%;
+}
+
+.setor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.setor h3 {
+    width: 70%;
+    text-align: center;
+}
+
+.area-da-vida {
+    width: 50%;
+    margin: 25px;
+    box-shadow: 0 0 5px rgba(35, 255, 134, 0.6),
+        /* Luz suave */
+        0 0 10px rgba(29, 255, 85, 0.4),
+        /* Luz mais expandida */
+        0 0 20px rgba(65, 253, 159, 0.2);
+    /* Luz ainda mais suave */
+}
+
+.imagem-principal {
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    cursor: pointer;
+    text-align: center;
+    background: #1e1e1e;
+    /* Cor do fundo da caixa */
+    border-radius: 25px;
+    /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(28, 250, 128, 0.6),
+        /* Luz suave */
+        0 0 20px rgba(72, 255, 103, 0.4),
+        /* Luz mais expandida */
+        0 0 40px rgba(19, 240, 148, 0.2);
+    /* Luz ainda mais suave */
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.imagem-principal:hover {
+    box-shadow: 0 0 15px rgb(70, 255, 131),
+        /* Azul brilhante intenso */
+        0 0 30px rgba(108, 253, 64, 0.8),
+        0 0 60px rgba(19, 250, 142, 0.6);
+}
+
+
+
+
+/* Estilo para o container de scroll */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Largura da barra de rolagem */
+    height: 12px;
+    /* Altura da barra de rolagem horizontal */
+}
+
+/* Estilo para a parte interna da barra de rolagem */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Cor do fundo da área do scroll */
+    border-radius: 10px;
+}
+
+/* Estilo para o polegar (parte que se move) */
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 255, 255, 0.2);
+    /* Cor do polegar */
+    border-radius: 10px;
+}
+
+/* Estilo para quando o polegar é hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Cor do polegar quando o mouse passa por cima */
+}
+
+
+.depoimento {
+    
+    height: 45vh;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    background-color: #242424;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    width: 20vw !important;
+    margin: 10px;
+
+}
+
+.depoimento:hover,
+.btn-compra:hover,
+.btn:hover {
+    transform: scale(1.05);
+    /* Aumenta 20% no tamanho */
+}
+
+.foto-depoimento {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.depoimento-row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.avaliacao-depoimento {
+    display: flex;
+    justify-content: center;
+}
+
+.nome-depoimento {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.texto-depoimento, .data-depoimento {
+    font-size: 1rem;
+    text-align: left;margin-top: 3vh;
+}
+
+.descricao-setor {
+    margin-top: -5vh;
+    font-weight: 400;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-icon {
+    margin-bottom: 2vh;
+    width: 5vw;
+
+}
+.data-depoimento {
+
+    
+}
+
+/*
+.data-depoimento {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    font-size: 0.8rem;
+}*/
+
+.ofertas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center;
+}
+
+.oferta {
+    width: 32vw;
+    height: 80vh;
+    background-color: white;
+    margin: 10px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    /* Cor do card */
+    border: 1px solid #333;
+    /* Borda sutil */
+    border-radius: 12px;
+    /* Bordas arredondadas */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    /* Sombra leve */
+
+}
+
+.oferta:nth-child(1) {
+    width: 28vw;
+    height: 78vh !important;
+}
+
+.oferta:nth-child(2) {
+    width: 30vw;
+    height: 80vh !important;
+}
+
+
+.nome-oferta {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2vh;
+    color: white;
+}
+
+.btn-compra{
+    width: 60%;
+    background-color: #6de289;
+    padding: 1rem;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-compra:hover {
+    transform: scale(1.05) !important;
+}
+
+
+.garantia {
+    width: 50%;
+    margin-top: 5vh;
+}
+
+.oferta-bottom {
+    position: absolute;
+    bottom: 5%;
+}
+
+.descricao-oferta {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.descricao-oferta p {
+    font-size: 0.9rem;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.preco {
+    display: flex;
+    flex-direction: row;
+}
+
+.preco-novo {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #24d800;
+}
+
+.preco-anterior {
+    text-decoration: line-through;
+}
+
+.linha-divisoria {
+    height: 1px;
+    color: #ffffff;
+    width: 70%;
+}
+
+.btn, .btn-compra {
+    text-decoration: none !important;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.btn:hover, .btn-compra:hover {
+    transform: scale(1.05) !important;
+}
+
+
+
+
+
+/* Borda animada */
+.oferta:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(90deg, #1eff96, #82ff69, #2effc0, #6de289);
+    background-size: 300% 300%;
+    /* Aumenta o tamanho do degradê */
+    border-radius: 14px;
+    /* Deve ser 2px maior que a borda do card */
+    z-index: -1;
+    animation: animate-border 2s infinite linear;
+    /* Aplica a animação */
+}
+
+/* Efeito de animação */
+@keyframes animate-border {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+footer {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto; margin-top: 10vh;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/*FAQ*/
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-item {
+    background-color: #242424;
+    /* Cor do card */
+    border: 1px solid #333;
+    /* Borda sutil */
+    border-radius: 12px;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    width: 60%;
+    height: auto;
+   
+}
+
+
+.faq-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    position: relative;
+    width: 100%;
+}
+
+.faq-main p {
+    color: white;
+    font-size: 1rem;
+    margin-left: 2%;
+}
+
+.chevron {
+    width: 1.5vw;
+    height: auto;
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+}
+
+.faq-resposta {
+    display: none;
+    color: white;
+    font-size: 0.9rem;
+    margin: 1rem 2%;
+    text-align: left;
+}
+
+/* Chevron girado */
+.chevron.rotated {
+    transform: rotate(180deg);
+    transition: transform 0.5s ease;
+}
+
+.como-funciona {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    margin: auto;
+}
+
+.como-funciona p {
+    text-align: left;
+}
+
+/*Reutilizaveis*/
+
+.grid {
+    width: 100%;  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas na linha de cima */
+    grid-auto-rows: 1fr; /* Altura automática para os cards */
+    gap: 10px; /* Espaçamento entre os cards */
+    justify-content: center; /* Centraliza a segunda linha */
+    align-items: center;
+}
+
+.bullet-points {
+    width: 100%;  
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 colunas na linha de cima */
+    grid-auto-rows: 1fr; /* Altura automática para os cards */
+    gap: 20px; /* Espaçamento entre os cards */
+    justify-content: center; /* Centraliza a segunda linha */
+    align-items: center;
+    margin-top: 5vh;
+
+}
+
+
+.bullet {
+    background-color: #242424;
+    border: 1px solid #333;
+    border-radius: 12px;
+    width: 35vw;
+    padding: 1rem;
+    
+}
+
+.bullet-title {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.bullet-description {
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 2vh;
+}
+
+
+
+/* CSS Base já está definido acima */
+
+/* Mobile (até 600px) */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem;
+        margin: auto;
+        margin-bottom: 2vh !important;
+        width: 80%;
+        margin-top: 2vh;
+    }
+    body, section {
+        padding: 0;
+        margin: 0;
+    }
+    h3 {
+        font-size: 1rem;
+        width: 80%;
+        margin: auto;
+    }
+    section {
+        width: 90vw;
+        margin: auto;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    p {
+        font-size: 0.6rem;
+        margin: 0;
+        width: 85%;
+    }
+    .game-icon{
+        width: 10vw;
+    }
+    .logo {
+        width: 15vw;
+        height: 15vw;
+    }
+    .imagem-principal {
+        width: 100%;
+        margin: auto;
+        margin-top: 3vh;
+    }
+    a {
+        width: 70vw !important;
+        font-size: 0.9rem;
+    }
+    .setor {
+        flex-direction: column;
+        position: relative;
+        height: 35vh;
+        margin: 0;
+        margin-bottom: 3vh;
+        margin-top: 5vh;
+    }
+    .area-da-vida {
+        width: 70vw;
+        position: absolute;
+        bottom: 5%;
+    }
+    .descricao-setor{
+        position: absolute;
+        top: 0;
+        margin: 0;
+    }
+    .bullet-title {
+        font-size: 1rem;
+        margin-bottom: 3vh;
+    }
+    .bullet-points {
+        display: flex;
+        flex-direction: column;
+    }
+    .bullet-description {
+        font-size: 0.8rem;
+    }
+    .bullet {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+    .depoimento {
+        width: 100% !important;
+        padding: 2rem;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .como-funciona p {
+        margin-bottom: 2vh;
+    }
+
+    .nome-depoimento {
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    .ofertas {
+        flex-direction: column;
+        margin-top: 2vh;
+        width: 100%;
+    }
+    .oferta {
+        width: 80vw !important;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+
+
+    .oferta:nth-child(1) {
+        height: 50vh !important;
+        width: 80vw;
+    }
+    .oferta:nth-child(2) {
+        height: 110vh;
+    }
+    .preco-novo{
+        font-size: 1.5rem;
+    }
+    .nome-oferta, .preco{
+        margin-bottom: 2vh;
+    }
+    .faq {
+        width: 100%;
+    }
+    .faq-item {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+        justify-content: center;
+    }
+
+    .faq p {
+        font-size: 0.5rem;
+       
+    }
+    footer{
+         margin-bottom: 5vh;
+    }
+    footer p {
+        font-size: 0.8rem;
+    }
+    .descricao-setor h3 {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+}
