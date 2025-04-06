@@ -482,11 +482,12 @@ footer p {
 }
 
 .chevron {
-    width: 1.5vw;
+    width: 2vw;
     height: auto;
     position: absolute;
     right: 5%;
     cursor: pointer;
+    font-size: 1rem;
 }
 
 .faq-resposta {
