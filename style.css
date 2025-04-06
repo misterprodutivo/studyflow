@@ -301,12 +301,12 @@ p {
 
 .oferta:nth-child(1) {
     width: 28vw;
-    height: 78vh !important;
+    height: 78vh;
 }
 
 .oferta:nth-child(2) {
     width: 30vw;
-    height: 80vh !important;
+    height: 80vh;
 }
 
 
