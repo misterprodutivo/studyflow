@@ -596,7 +596,7 @@ footer p {
     p {
         font-size: 0.6rem;
         margin: 0;
-        width: 85%;
+        width: 90%;
     }
     .game-icon{
         width: 10vw;
@@ -611,8 +611,8 @@ footer p {
         margin-top: 3vh;
     }
     a {
-        width: 70vw !important;
-        font-size: 0.9rem;
+        width: 80vw !important;
+        font-size: 0.8rem;
     }
     .setor {
         flex-direction: column;
@@ -688,7 +688,7 @@ footer p {
         width: 80vw;
     }
     .oferta:nth-child(2) {
-        height: 110vh;
+        height: 80vh;
     }
     .preco-novo{
         font-size: 1.5rem;
