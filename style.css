@@ -482,7 +482,7 @@ footer p {
 }
 
 .chevron {
-    width: 2vw;
+    width: 3vw;
     height: auto;
     position: absolute;
     right: 5%;
@@ -618,7 +618,7 @@ footer p {
     .setor {
         flex-direction: column;
         position: relative;
-        height: 45vh;
+        height: 50vh;
         margin: 0;
         margin-bottom: 3vh;
         margin-top: 5vh;
@@ -722,6 +722,6 @@ footer p {
     }
     .descricao-setor h3 {
         font-size: 0.7rem;
-        font-weight: 400;
+        font-weight: 600;
     }
 }
