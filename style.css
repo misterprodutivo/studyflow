@@ -52,11 +52,11 @@ h1 {
     height: 0;
     overflow: hidden;
     margin-top: 5vh !important;
-    box-shadow: 0 0 5px rgba(12, 228, 127, 0.6),
+    box-shadow: 0 0 5px rgba(255, 14, 134, 0.6),
     /* Luz suave */
-    0 0 10px rgba(32, 255, 118, 0.4),
+    0 0 10px rgba(255, 11, 194, 0.4),
     /* Luz mais expandida */
-    0 0 20px rgba(50, 248, 110, 0.2);
+    0 0 20px rgba(255, 10, 104, 0.2);
     transition: box-shadow 0.3s ease;
 }
 
@@ -76,7 +76,7 @@ p {
 
 .btn {
     padding: 1rem;
-    background-color: #6de289;
+    background-color: #fc374d;;
     border-radius: 25px;
     width: 40%;
     text-decoration: none;
@@ -87,11 +87,11 @@ p {
     border-radius: 25px;
     cursor: pointer;
     font-weight: bold;
-    box-shadow: 0 0 5px rgba(45, 255, 115, 0.6),
+    box-shadow: 0 0 5px rgba(255, 21, 150, 0.6),
     /* Luz suave */
-    0 0 10px rgba(44, 255, 107, 0.4),
+    0 0 10px rgba(255, 62, 191, 0.4),
     /* Luz mais expandida */
-    0 0 20px rgba(43, 255, 167, 0.2);
+    0 0 20px rgba(255, 14, 195, 0.2);
     transition: transform 0.3s ease;
 }
 
@@ -115,11 +115,11 @@ p {
 .area-da-vida {
     width: 50%;
     margin: 25px;
-    box-shadow: 0 0 5px rgba(35, 255, 134, 0.6),
-        /* Luz suave */
-        0 0 10px rgba(29, 255, 85, 0.4),
-        /* Luz mais expandida */
-        0 0 20px rgba(65, 253, 159, 0.2);
+    box-shadow: 0 0 5px rgba(255, 21, 150, 0.6),
+    /* Luz suave */
+    0 0 10px rgba(255, 62, 191, 0.4),
+    /* Luz mais expandida */
+    0 0 20px rgba(255, 14, 195, 0.2);
     /* Luz ainda mais suave */
 }
 
@@ -134,21 +134,22 @@ p {
     /* Cor do fundo da caixa */
     border-radius: 25px;
     /* Borda arredondada */
-    box-shadow: 0 0 10px rgba(28, 250, 128, 0.6),
-        /* Luz suave */
-        0 0 20px rgba(72, 255, 103, 0.4),
-        /* Luz mais expandida */
-        0 0 40px rgba(19, 240, 148, 0.2);
+    box-shadow: 0 0 5px rgba(255, 21, 150, 0.6),
+    /* Luz suave */
+    0 0 10px rgba(255, 62, 191, 0.4),
+    /* Luz mais expandida */
+    0 0 20px rgba(255, 14, 195, 0.2);
     /* Luz ainda mais suave */
     transition: box-shadow 0.3s ease;
 }
 
 /* Efeito ao passar o mouse */
 .imagem-principal:hover {
-    box-shadow: 0 0 15px rgb(70, 255, 131),
-        /* Azul brilhante intenso */
-        0 0 30px rgba(108, 253, 64, 0.8),
-        0 0 60px rgba(19, 250, 142, 0.6);
+    box-shadow: 0 0 5px rgba(255, 21, 150, 0.8),
+    /* Luz suave */
+    0 0 10px rgba(255, 62, 191, 0.6),
+    /* Luz mais expandida */
+    0 0 20px rgba(255, 14, 195, 0.4);
 }
 
 
@@ -319,7 +320,7 @@ p {
 
 .btn-compra{
     width: 60%;
-    background-color: #6de289;
+    background-color: #fc374d;;
     padding: 1rem;
     border-radius: 25px;
     font-weight: 600;
@@ -395,14 +396,14 @@ p {
 
 
 /* Borda animada */
-.oferta:nth-child(2)::before {
+.oferta:nth-child(1)::before {
     content: "";
     position: absolute;
     top: -2px;
     left: -2px;
     right: -2px;
     bottom: -2px;
-    background: linear-gradient(90deg, #1eff96, #82ff69, #2effc0, #6de289);
+    background: linear-gradient(90deg, #ff1e7c, #ff209b, #ff0e92, #fc374d);
     background-size: 300% 300%;
     /* Aumenta o tamanho do degradê */
     border-radius: 14px;
